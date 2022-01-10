@@ -1,0 +1,8 @@
+{
+  "title": "API documentation for Icecreamstory",
+  "version": "1.0.0",
+  "url": "http://localhost/api/v1",
+  "template": {
+        "forceLanguage": "en"
+    }
+}

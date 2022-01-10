@@ -1,0 +1,81 @@
+
+> icecream-story-server@1.0.0 start /home/Projects/RestaurantCity/server
+> NODE_PATH=./config:./app/controllers NODE_ENV=staging NODE_APP_INSTANCE=0 PORT=8081 nodemon server.js
+
+[33m[nodemon] 2.0.4[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node server.js`[39m
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event at:
+    at lazyFs.read (internal/fs/streams.js:165:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:467:17)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! icecream-story-server@1.0.0 start: `NODE_PATH=./config:./app/controllers NODE_ENV=staging NODE_APP_INSTANCE=0 PORT=8081 nodemon server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the icecream-story-server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2020-09-03T04_11_11_168Z-debug.log
+
+> icecream-story-server@1.0.0 start /home/Projects/RestaurantCity/server
+> NODE_PATH=./config:./app/controllers NODE_ENV=staging NODE_APP_INSTANCE=0 PORT=8081 nodemon server.js
+
+[33m[nodemon] 2.0.4[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node server.js`[39m
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event at:
+    at lazyFs.read (internal/fs/streams.js:165:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:467:17)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! icecream-story-server@1.0.0 start: `NODE_PATH=./config:./app/controllers NODE_ENV=staging NODE_APP_INSTANCE=0 PORT=8081 nodemon server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the icecream-story-server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2020-09-03T04_11_42_186Z-debug.log
+
+> icecream-story-server@1.0.0 start /home/Projects/RestaurantCity/server
+> NODE_PATH=./config:./app/controllers NODE_ENV=staging NODE_APP_INSTANCE=0 PORT=8081 nodemon server.js
+
+[33m[nodemon] 2.0.4[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node server.js`[39m
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event at:
+    at lazyFs.read (internal/fs/streams.js:165:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:467:17)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! icecream-story-server@1.0.0 start: `NODE_PATH=./config:./app/controllers NODE_ENV=staging NODE_APP_INSTANCE=0 PORT=8081 nodemon server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the icecream-story-server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2020-10-08T15_18_52_670Z-debug.log

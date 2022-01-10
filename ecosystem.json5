@@ -1,0 +1,57 @@
+{
+  "apps" : [
+    {
+        "name"      : "Kitchen Story",
+        "script"    : "server.js",
+        "env": {
+            "COMMON_VARIABLE": "true"
+        },
+        "instances"  : 4,
+        "exec_mode"  : "fork",
+        "watch"      : true,
+        "env" : {
+            "NODE_ENV": "staging",
+            "NODE_PATH": "./config:./app/controllers"
+        },
+        "error_file" : "/var/log/icecream/node-err.log",
+        "out_file"   : "/var/log/icecream/node-out.log",
+        "merge_logs" : true,
+        "pid_file"   : "/var/run/icecream/node.pid"
+    }
+  ],
+  "deploy" : {
+    "production" : {
+        "user" : "icecream",
+        "host" : "198.15.127.147",
+        "ref"  : "origin/master",
+        "repo" : "git@bitbucket.org:icecreamgameteam/server.git",
+        "path" : "/home/icecream/kitchenstory/production",
+        "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json5 --env production",
+        "env"  : {
+            "NODE_ENV": "production"
+        }
+    },
+    "staging" : {
+        "user" : "icecream",
+        "host" : "198.15.127.147",
+        "ref"  : "origin/master",
+        "repo" : "git@bitbucket.org:icecreamgameteam/server.git",
+        "path" : "/home/icecream/kitchenstory/staging",
+        "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json5 --env staging",
+        "env"  : {
+           "NODE_ENV": "staging"
+        }
+    },
+    "development" : {
+        "user" : "icecream",
+        "host" : "198.15.127.147",
+        "ref"  : "origin/master",
+        "repo" : "git@bitbucket.org:icecreamgameteam/server.git",
+        "path" : "/home/icecream/kitchenstory/development",
+        "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json5 --env development",
+        "env"  : {
+           "NODE_ENV": "development"
+        }
+    }
+  }
+}
